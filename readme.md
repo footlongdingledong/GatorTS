@@ -1,6 +1,8 @@
 Blog Aggregator guided project in TypeScript.
 Dropped this project for a couple months and worked on other projects before returning, so this one's a mess.
 
+Uses drizzle-orm with postgresql database. Postgres database must be created, and connection string provided in config file (explained below).
+
 Requires ".gatorconfig.json" in home directory (can be changed in config.ts - getConfigFilePath())
 .gatorconfig.json requires "db_url" and "current_user_name" fields. db_url is required, but current_user_name should be ok if left blank (program will update it).
 
